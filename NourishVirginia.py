@@ -90,7 +90,8 @@ def welcome():
 	menu = input()
 
 	if (menu == '1'):
-		print(listBanks)  # Display list of banks contained in listBanks dictionary. TODO: load listBanks from textfile.
+		for key, value in listBanks.items():
+			print("{}: {}".format(key, value))  # Display list of banks contained in listBanks dictionary. TODO: load listBanks from textfile.
 		welcome()
 	elif (menu == '2'):
 		whichBank()  # Main program loop
