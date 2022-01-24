@@ -3,6 +3,15 @@
 #
 # This simple python script helps determine which of the 
 # food banks in Virginia to support this month.
+# TODO - Convert banks to objects with following attributes:
+# * - Number (for access purposes. No particular order necessary.
+# * - Name
+# * - Recent donation BOOL
+# * - Date of recent donation
+# * - Area population served
+# Others as they come up, however this should allow adding of variables to compare in a much more
+# easily modified and easy to read method than the simple functions I have below.
+# Due date for above modifcation - 2/07/2022
 
 
 import random as rand
