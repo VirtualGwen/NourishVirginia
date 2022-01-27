@@ -26,11 +26,11 @@ class Bank:  # implementing TODO above to convert banks to objects.
     recentDonation = False
 
 
-chesterfieldPopulation = 353
-richmondPopulation = 227
-southwestPopulation = 285
-henricoPopulation = 331
-virginiaBeachPopulation = 695
+dictBanks = {1: {"name": "Feedmore Richmond", "population": 227},
+             2: {"name": "Chesterfield Foodbank", "population": 353},
+             3: {"name": "Feeding Southwest Virginia", "population": 285},
+             4: {"name": "Central Virginia Foodbank", "population": 331},
+             5: {"name": "Foodbank of SE Virginia", "population": 695}}
 
 listBanks = {1: "Feedmore Richmond", 2: "Chesterfield Foodbank", 3: "Feeding Southwest Virginia",
              4: "Central Virginia Foodbank", 5: "Foodbank of SE Virginia"}
