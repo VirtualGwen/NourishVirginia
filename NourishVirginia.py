@@ -12,6 +12,8 @@
 # Others as they come up, however this should allow adding of variables to compare in a much more
 # easily modified and easy to read method than the simple functions I have below.
 # Due date for above modifcation - 2/07/2022
+# Obviously I missed the due date for the modification. Working on it now
+# 2/17/2022
 
 
 import random as rand
@@ -25,6 +27,15 @@ class Bank:  # implementing TODO above to convert banks to objects.
 
     recentDonation = False
 
+    def getNumber():
+        return self.number
+
+    def getName():
+        return self.name
+
+    def.getPopulation():
+        return self.population
+	
 
 dictBanks = {1: {"name": "Feedmore Richmond", "population": 227},
              2: {"name": "Chesterfield Foodbank", "population": 353},
